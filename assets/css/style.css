@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+
+
+nav {
+    position: relative;
+    border: 1px solid black;
+    padding: 15px 1px;
+    background-color: darkslateblue;
+}
+
+.nav-bar {
+    position: relative;
+    display: inline;
+    float: right;
+    padding: 10px;
+    bottom: 30px;
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+.my-name {
+    position: relative;
+    width: 100;
+    border: 1px solid cyan;
+    padding: 1px 5px;
+    background-color: cyan;
+}
+
+h1 p {
+    position: relative;
+    font-size: 200%;
+}
+
+
+.background-img {
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+}
+
+.contact-me-container {
+    position: relative;
+    text-align: center;
+}
+.contact-me {
+    position: relative;
+    display: inline;
+    padding: 10px;
+    bottom: 30px;
+    text-decoration: underline;
+    font-size: 150%;
+} 
