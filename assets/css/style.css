@@ -5,38 +5,46 @@
 
 
 
+/* NAV BAR */
 
-
-nav {
+#nav-container {
+    max-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
     border: 1px solid black;
-    padding: 15px 1px;
     background-color: darkslateblue;
 }
 
-.nav-bar {
-    position: relative;
-    display: inline;
-    float: right;
-    padding: 10px;
-    bottom: 30px;
-    text-decoration: underline;
-    font-size: 150%;
+#name-card {
 }
 
-.my-name {
+
+#my-name {
     position: relative;
-    width: 100;
+    max-width: 350px;
+    max-height: auto;
+    display: flex;
     border: 1px solid cyan;
-    padding: 1px 5px;
-    background-color: cyan;
+    background: cyan;
+    font-size: 250%;
+    padding-left: 7.50%;
 }
 
-h1 p {
-    position: relative;
+#nav-bar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    list-style-type: none;
+}
+
+.nav-links {
+    text-decoration: underline;
+    padding: 10px ;
     font-size: 200%;
 }
-
 
 .background-img {
     width: 100%;
@@ -44,9 +52,46 @@ h1 p {
     z-index: 0;
 }
 
+.big-work-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container {
+    display: flex;
+    border-right: 5px solid blue;
+    max-width: 10%;
+    font-size: 300%;
+    padding-left: 10%;
+}
+
+#paragraph-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#right-container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    max-width: 70%;
+}
+
+.box {
+    background: lightblue;
+    width: 420px;
+    height: 150px;
+}
+
+#box1 {
+    width: 1000px;
+}
+
 .contact-me-container {
-    position: relative;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
 }
 .contact-me {
     position: relative;
