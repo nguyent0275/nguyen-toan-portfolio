@@ -57,17 +57,35 @@
     flex-direction: row;
 }
 
-.left-container {
+.about-me-container {
     display: flex;
     border-right: 5px solid blue;
-    max-width: 10%;
     font-size: 300%;
     padding-left: 10%;
+    padding-right: 10px;
+}
+
+.my-work-container {
+    display: flex;
+    border-right: 5px solid blue;
+    font-size: 300%;
+    padding-left: 10.7%;
+    padding-right: 10px;
+}
+
+#contact-me-container {
+    display: flex;
+    border-right: 5px solid blue;
+    font-size: 300%;
+    padding-left: 7.2%;
+    padding-right: 10px;
 }
 
 #paragraph-container {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 10%;
 }
 
 #right-container {
@@ -84,7 +102,7 @@
 }
 
 #box1 {
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .contact-me-container {
