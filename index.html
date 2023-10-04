@@ -3,47 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toan Nguyen Portfolio</title>
-    <link rel="stylesheet" text="text/css" href="./assets/css/style.css">
+    <title>Toan Nguyen - Full Stack Developer</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
+    <header>
+        <h1>Toan Nguyen</h1>
+        <p>Full Stack Developer</p>
+        <img id="pfp" src="./assets/images/profile_picture.jpg" alt="a profile picture of me">
+    </header>
+<!-- NAV BAR -->
     <nav>
-        <h1 class="my-name"><p>Toan Nguyen</p></h1>
-        <ul>
-            <li class="nav-bar"><a>About Me</a></li>
-            <li class="nav-bar"><a>Work</a></li>
-            <li class="nav-bar"><a>Resume</a></li>
-            <li class="nav-bar"><a>Contact Me</a></li>
-        </ul>
-    </nav>
-    <figure>
-        <img class="background-img" src="./assets/images/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg" alt="blue and gold background image">
-    </figure>
-    
-    <section>
-        <h2>About Me</h2>
-            <p>
-                Hello there! I'm Toan Nguyen, and I'm on a thrilling journey to become a proficient full stack developer. I've always been fascinated by the limitless applications of technology, and I'm excited to share my evergrowing expertise with you.
-
-                As a beginner full stack developer, I've laid the groundwork by diving into languages like HTML, CSS, JavaScript, and the fundamentals of backend development. The thrill of crafting interactive and visually appealing websites keeps me motivated to expand my skills and knowledge.
-
-                I'm excited to share my coding journey with you, and I invite you to explore my portfolio to see the projects I've been working on. I'm always eager to connect with fellow developers, collaborate on projects, or discuss the latest advancements in web development.
-            </p>
-    </section>
-
-    <section>
-        <h2>Work</h2>
-    </section>
-
-    <section>
-        <h2>Contact Me</h2>
-            <ul class="contact-me-container">
-                <li class="contact-me"><a>267-255-2763</a></li>
-                <li class="contact-me"><a>nguyentoan0275@gmail.com</a></li>
-                <li class="contact-me"><a>Github</a></li>
-                <li class="contact-me"><a>Twitter</a></li>
-                <li class="contact-me"><a>Spotify</a></li>
+        <div id="nav-bar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+<!-- MAIN -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello there! I'm Toan Nguyen, and I'm on a thrilling journey to become a proficient full stack developer. I've always been fascinated by the limitless applications of technology, and I'm excited to share my evergrowing expertise with you.
+
+            As a beginner full stack developer, I've laid the groundwork by diving into languages like HTML, CSS, JavaScript, and the fundamentals of backend development. The thrill of crafting interactive and visually appealing websites keeps me motivated to expand my skills and knowledge.
+
+            I'm excited to share my coding journey with you, and I invite you to explore my portfolio to see the projects I've been working on. I'm always eager to connect with fellow developers, collaborate on projects, or discuss the latest advancements in web development.
+        </p>
     </section>
+<!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div id="projects-container">
+            <h2>Portfolio</h2>
+            <div id="project-main">
+                <div class="text-box">
+                    <h3>Horiseon SEO Refactor</h3>
+                    <p>Refactoring of HTMl and CSS code for ideal search engine optimization and readability</p>
+                </div>
+                <div class="img-container">
+                    <a href="https://nguyent0275.github.io/horiseon-seo-refactor/"><img id="horiseon-img" src="./assets/images/horiseon_banner.png" alt="my horiseon webpage"></a>
+                </div>
+            </div>
+            <div class="project-secondary">
+                <div class="text-box">
+                    <h3>Prework Study Guide</h3>
+                    <p>A study guide going over the assigned prework for Upenn LPS Bootcamp for Coding.</p>
+                </div>
+                <div class="img-container">
+                    <a href="https://nguyent0275.github.io/prework-study-guide/"><img src="./assets/images/prework_guide.png" alt="my prework study guide webpage"></a>
+                </div>
+            </div>
+            <div class="project-secondary">
+                <div class="text-box">
+                    <caption id="text-align-right">
+                        <h3>Rock, Paper, Scissor (Python)</h3>
+                        <p>A game of Rock, Paper, Scissors written in Python for a Udemy course.</p>
+                    </caption>
+                </div>
+                <div class="img-container">
+                    <a href="https://replit.com/@ToanNguyen136/rock-paper-scissors-start"><img src="./assets/images/rock_paper_scissors.png" alt="my rock, paper, scissors game"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- CONTACT ME -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out:</p>
+        <ul>
+            <li>Email: <a href="mailto: nguyentoan0275@gmail.com">nguyentoan0275@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/toan-nguyen-2498a1293/" target="_blank">LinkedIn Profile</a></li>
+            <li>Github: <a href="https://github.com/nguyent0275" target="_blank">Github Profile</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Toan Nguyen</p>
+    </footer>
 </body>
 </html>
