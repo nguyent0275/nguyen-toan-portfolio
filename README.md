@@ -11,7 +11,7 @@
 This page is dedicated to work and information about Toan Nguyen.  
 
 ## Links
-https://nguyent0275.github.io/horiseon-seo-refactor/
+https://nguyent0275.github.io/nguyen-toan-portfolio/
 
 ## Image
 ![Alt text](/assets/images/portfolio_page.png)
