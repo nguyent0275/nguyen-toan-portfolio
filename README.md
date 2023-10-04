@@ -14,15 +14,14 @@ This page is dedicated to work and information about Toan Nguyen.
 https://nguyent0275.github.io/horiseon-seo-refactor/
 
 ## Image
-![Alt text](/assets)
+![Alt text](/assets/images/portfolio_page.png)
 
 ## Features
-- Semantic HTML: Replaced < div > elements with semantic elements such as, < section > and < article >
-- Optimized CSS: CSS stylesheet has been streamlined to cut back on redundant class selectors
-- Alt Attributes: Added descriptive "alt" to all images
-- Code Comments: Commented out redundant code and added comments to explain the changes and purpose of newly added code
+- About Me: Includes an informative and indepth look at Toan Nguyen and his interests. 
+- Projects: Links and images of projects that Toan Nguyen has worked on since the beginning of his coding journey. 
+- Contact Me: Information for reaching out to Toan Nguyen, including links to social media. 
 
 ## Usage
-1. Open the 'index.html' file in your web browser to view the Horiseon website.
-2. You can access the CSS file in the 'assets/css/style.css' for reference. 
-3. To make any changes, open the respective files in your code editor. 
+1. Open the 'index.html' file in your web browser to view the porfolio page.
+2. You can access the CSS file in the 'assets/css/style.css' to see how the portfolio was designed. 
+3. All images and highlighted texts are linked to their source. 
