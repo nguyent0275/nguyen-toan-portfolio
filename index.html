@@ -3,64 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toan Nguyen Portfolio</title>
-    <link rel="stylesheet" text="text/css" href="./assets/css/style.css">
+    <title>Toan Nguyen - Full Stack Developer</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <nav id="nav-container">
-        <h1 id="name-card"><p id="my-name">Toan Nguyen</p></h1>
-        <ul id="nav-bar-container">
-            <li><a class="nav-links" href="#about-me" >About Me</a></li>
-            <li><a class="nav-links" href="#my-work">Work</a></li>
-            <li><a class="nav-links" href="#my-contact">Contact Me</a></li>
-            <!-- <li><a class="nav-links" href="#my-resume">Resume</a></li> -->
-        </ul>
-    </nav>
-    <figure>
-        <img class="background-img" src="./assets/images/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg" alt="blue and gold background image">
-    </figure>
-    
-    <section class="big-work-container">
-        <h2 class="about-me-container" id="about-me">About Me</h2>
-            <section id="paragraph-container">
-                <p>
-                    Hello there! I'm Toan Nguyen, and I'm on a thrilling journey to become a proficient full stack developer. I've always been fascinated by the limitless applications of technology, and I'm excited to share my evergrowing expertise with you.
+    <header>
+        <h1>Toan Nguyen</h1>
+        <p>Full Stack Developer</p>
+        <img id="pfp" src="./assets/images/IMG_7879 (1).jpg" alt="a profile picture of me">
+    </header>
 
-                    As a beginner full stack developer, I've laid the groundwork by diving into languages like HTML, CSS, JavaScript, and the fundamentals of backend development. The thrill of crafting interactive and visually appealing websites keeps me motivated to expand my skills and knowledge.
-
-                    I'm excited to share my coding journey with you, and I invite you to explore my portfolio to see the projects I've been working on. I'm always eager to connect with fellow developers, collaborate on projects, or discuss the latest advancements in web development.
-                </p>
-            </section>
-    </section>
-
-    <section class="big-work-container">
-        <h2 class="my-work-container" id="my-work">My </br> Work</h2>
-            <section id="right-container">
-                <figure id="box1" class="box">
-                    <img src="./assets/images/Horiseon-Wesbite.png.jpg" class="box">
-                </figure>               
-                <figure id="box2" class="box">
-                    Project 2
-                </figure>
-                <figure id="box3" class="box">
-                    Project 3
-                </figure>
-                <figure id="box4" class="box">
-                    Project 4
-                </figure>
-                <figure id="box5" class="box">
-                    Project 5
-                </figure>
-            </section>
-    </section>
-
-    <section class="big-work-container">
-        <h2 id="contact-me-container" id="my-contact">Contact </br> Me</h2>
-            <ul class= "contact-me-container">
-                <li class="contact-me"><a>267-255-2763</a></li>
-                <li class="contact-me"><a>nguyentoan0275@gmail.com</a></li>
-                <li class="contact-me"><a>Github</a></li>
+    <nav>
+        <div id="nav-bar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello there! I'm Toan Nguyen, and I'm on a thrilling journey to become a proficient full stack developer. I've always been fascinated by the limitless applications of technology, and I'm excited to share my evergrowing expertise with you.
+
+            As a beginner full stack developer, I've laid the groundwork by diving into languages like HTML, CSS, JavaScript, and the fundamentals of backend development. The thrill of crafting interactive and visually appealing websites keeps me motivated to expand my skills and knowledge.
+
+            I'm excited to share my coding journey with you, and I invite you to explore my portfolio to see the projects I've been working on. I'm always eager to connect with fellow developers, collaborate on projects, or discuss the latest advancements in web development.
+        </p>
     </section>
+
+    <section id="portfolio">
+        <div id="projects-container">
+            <h2>Portfolio</h2>
+            <div id="project-main">
+                <div class="text-box">
+                    <h3>Horiseon SEO Refactor</h3>
+                    <p>Refactoring of HTMl and CSS code for ideal search engine optimization and readability</p>
+                </div>
+                <div class="img-container">
+                    <a href="https://nguyent0275.github.io/horiseon-seo-refactor/"><img id="horiseon-img" src="./assets/images/horiseon-banner.png" alt="my horiseon webpage"></a>
+                </div>
+            </div>
+            <div class="project-secondary">
+                <div class="text-box">
+                    <h3>Prework Study Guide</h3>
+                    <p>A study guide going over the assigned prework for Upenn LPS Bootcamp for Coding.</p>
+                </div>
+                <div class="img-container">
+                    <a href="https://nguyent0275.github.io/prework-study-guide/"><img src="./assets/images/chrome_2023-10-03_22-06-41.png" alt="my prework study guide webpage"></a>
+                </div>
+            </div>
+            <div class="project-secondary">
+                <div class="text-box">
+                    <caption id="text-align-right">
+                        <h3>Rock, Paper, Scissor(Python)</h3>
+                        <p>A game of Rock, Paper, Scissors written in Python for a Udemy course.</p>
+                    </caption>
+                </div>
+                <div class="img-container">
+                    <a href="https://replit.com/@ToanNguyen136/rock-paper-scissors-start"><img src="./assets/images/NVIDIA_Share_2023-10-03_22-59-22.png" alt="my rock, paper, scissors game"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out:</p>
+        <ul>
+            <li>Email: <a href="mailto: nguyentoan0275@gmail.com">nguyentoan0275@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/toan-nguyen-2498a1293/" target="_blank">LinkedIn Profile</a></li>
+            <li>Github: <a href="https://github.com/nguyent0275" target="_blank">Github Profile</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Toan Nguyen</p>
+    </footer>
 </body>
 </html>
